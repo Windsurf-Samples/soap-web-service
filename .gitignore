@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### JAXB Generated Files ###
+src/main/java/META-INF/JAXB/
