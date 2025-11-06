@@ -115,6 +115,10 @@
                     </sources>
                     <outputDirectory>src/main/java</outputDirectory>
                     <clearOutputDir>false</clearOutputDir>
+                    <noGeneratedHeaderComments>true</noGeneratedHeaderComments>
+                    <arguments>
+                        <argument>-no-header</argument>
+                    </arguments>
                 </configuration>
             </plugin>
             <!-- Commented out jaxws-maven-plugin as it requires running server
