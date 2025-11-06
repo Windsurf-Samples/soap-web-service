@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REST_RESPONSE=$(curl -s http://localhost:8080/api/countries)
+REST_RESPONSE=$(curl -s http://localhost:8080/api/countries-available)
 
 SOAP_RESPONSE=$(curl -s -X POST http://localhost:8080/ws \
   -H "Content-Type: text/xml;charset=UTF-8" \
